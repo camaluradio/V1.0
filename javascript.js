@@ -11,9 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // Spinner dentro del botón de play
   const btnSpinner = document.createElement("div");
   btnSpinner.className = "spinner";
-
-  btnSpinner.style.width = "30px";
-  btnSpinner.style.height = "30px";
+  btnSpinner.style.width = "35px";
+  btnSpinner.style.height = "35px";
   btnSpinner.style.zIndex = 5;
   btnSpinner.style.display = "none";
   btnSpinner.style.opacity = 0;
@@ -863,3 +862,4 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
 })();
+
