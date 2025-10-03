@@ -575,9 +575,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
     modalTitle.innerHTML = MODAL_TITLE_HTML;
     modalBody.innerHTML = `
+      <div class="text-center" style="text-align:center;">
       <h3>${entry.title}</h3>
       ${!entry.isPage ? `<p class="small"><i class="bi bi-calendar-fill"></i> ${entry.fecha} <i class="bi bi-person-square"></i> ${entry.autor}</p>` : ""}
       <p class="small text-white">${tagsHTML}</p>
+      </div>
       <div class="post-body">${entry.content}</div>
     `;
 
@@ -859,4 +861,5 @@ document.addEventListener("DOMContentLoaded", async () => {
       alert('No se pudo copiar el enlace.');
     });
   });
+
 })();
