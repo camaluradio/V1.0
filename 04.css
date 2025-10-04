@@ -80,10 +80,10 @@ border-radius:50%; animation:spin 1s linear infinite; position:absolute; z-index
 .restart-icon {font-size:15px;}
 .play-icon:hover, .restart-icon:hover, .fullscreen-icon:hover, .close-fullscreen-icon:hover {background:var(--success);}
 
-.controles {position:absolute; bottom:5px; left:5px; display:flex; flex-direction:row; gap:5px; background:rgba(0,0,0,0.5); padding:5px; border-radius:6px; z-index:6;}
+.controles {position:absolute; bottom:5px; right:5px; display:flex; flex-direction:row; gap:5px; background:rgba(0,0,0,0.5); padding:5px; border-radius:6px; z-index:6;}
 
 .overlay {position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; z-index:2;}
-.duration-tag {position:absolute; bottom:15px; right:10px; background:var(--black); color:var(--white); padding:2px 5px; z-index:4;}
+.duration-tag {position:absolute; bottom:15px; left:10px; background:var(--black); color:var(--white); padding:2px 5px; z-index:4;}
 
 .video-info h3 {margin:15px 0 5px 0;}
 .video-info {margin:0;}
@@ -151,4 +151,5 @@ border-radius:50%; animation:spin 1s linear infinite; position:absolute; z-index
 .btn-discord{background:#7289da;}
 
 .btn-copy{background:#6c757d;}
+
 
