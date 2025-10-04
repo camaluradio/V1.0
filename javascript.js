@@ -579,7 +579,7 @@ document.addEventListener("DOMContentLoaded", function(){
       ${!entry.isPage ? `<p class="small"><i class="bi bi-calendar-fill"></i> ${entry.fecha} <i class="bi bi-person-square"></i> ${entry.autor}</p>` : ""}
       <p class="small text-white">${tagsHTML}</p>
       </div>
-      <div class="post-body">${entry.content}</div>
+      <div class="post-body container m-0 p-0">${entry.content}</div>
     `;
 
     const url = encodeURIComponent(entry.link);
@@ -862,4 +862,5 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
 })();
+
 
