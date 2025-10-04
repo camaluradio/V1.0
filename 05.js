@@ -580,7 +580,7 @@ document.addEventListener("DOMContentLoaded", function(){
       <p class="small text-white">${tagsHTML}</p>
       </div>
       <div class="post-body">${entry.content}
-      <div class="text-center mt-3"><button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button></div>
+      <div class="text-center mt-3"><button type="button" class="btn btn-primary mb-4" data-bs-dismiss="modal">Cerrar</button></div>
       </div>
     `;
 
@@ -864,6 +864,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
 })();
+
 
 
 
