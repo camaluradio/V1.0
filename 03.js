@@ -579,7 +579,9 @@ document.addEventListener("DOMContentLoaded", function(){
       ${!entry.isPage ? `<p class="small"><i class="bi bi-calendar-fill"></i> ${entry.fecha} <i class="bi bi-person-square"></i> ${entry.autor}</p>` : ""}
       <p class="small text-white">${tagsHTML}</p>
       </div>
-      <div class="post-body">${entry.content}</div>
+      <div class="post-body">${entry.content}
+      <div class="text-center mt-3"><button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button></div>
+      </div>
     `;
 
     const url = encodeURIComponent(entry.link);
@@ -862,6 +864,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
 })();
+
 
 
 
