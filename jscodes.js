@@ -1,5 +1,3 @@
-agrega correctamente este script
-
 document.addEventListener("DOMContentLoaded", function() {
   const form = document.getElementById("my-form");
   const status = document.getElementById("my-form-status");
@@ -923,5 +921,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       alert('No se pudo copiar el enlace.');
     });
   });
+
 
 })();
